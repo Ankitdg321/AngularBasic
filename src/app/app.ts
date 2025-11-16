@@ -1,12 +1,42 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, effect, signal } from '@angular/core';
+import { log } from 'console';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'My-new';
+
+  count =0;
+
+  handleIncrement(){
+
+    this.count ++;
+    console.log(this.count);
+
+  }
+
+   handleDecrement(){
+
+    this.count --;
+    console.log(this.count);
+
+  }
+
+   reset(){
+
+    this.count =0;
+    console.log(this.count);
+
+  }
+
+
+
+
+
+
+
+
 }

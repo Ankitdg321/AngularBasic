@@ -1,0 +1,32 @@
+.increment{
+    color: red;
+    /* margin: auto; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.decrement{
+    color: green;
+     padding: 10px;
+     background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.reset{
+    color: yellow;
+    background-color: black;
+     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn-container {
+  display: flex;
+  gap: 10px; 
+}
